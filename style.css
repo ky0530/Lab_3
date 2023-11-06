@@ -456,4 +456,24 @@ img{
     border: 1px solid #008000;
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+/* spacing on all sections */
+ #biodata, #hobbies, #campusLife {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+.card-text
+{
+  text-align: center;
+}
+
+.card-body{
+  padding: 50px;
+
+}
